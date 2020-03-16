@@ -1,0 +1,88 @@
+{
+    "time_slots": [
+      {
+        "hour": "07:00"
+      },
+      {
+        "hour": "07:30"
+      },
+      {
+        "hour": "08:00"
+      },
+      {
+        "hour": "08:30"
+      },
+      {
+        "hour": "09:00"
+      },
+      {
+        "hour": "09:30"
+      },
+      {
+        "hour": "10:00"
+      },
+      {
+        "hour": "10:30"
+      },
+      {
+        "hour": "11:00"
+      },
+      {
+        "hour": "11:30"
+      },
+      {
+        "hour": "12:00"
+      },
+      {
+        "hour": "12:30"
+      }
+    ],
+    "schedules": [
+      {
+        "id": 1,
+        "dockId": 1,
+        "carrier_name": "Trackage",
+        "hour": "08:00",
+        "status": "confirmed"
+      },
+      {
+        "id": 2,
+        "dockId": 1,
+        "carrier_name": "Transnova",
+        "hour": "10:30",
+        "status": "waiting"
+      },
+      {
+        "id": 3,
+        "dockId": 2,
+        "carrier_name": "Trackage",
+        "hour": "10:00",
+        "status": "confirmed"
+      },
+      {
+        "id": 4,
+        "dockId": 2,
+        "carrier_name": "Transnova",
+        "hour": "11:00",
+        "status": "waiting"
+      },
+      {
+        "status": "confirmed",
+        "carrier_name": "Trackage",
+        "hour": "07:00",
+        "dockId": 1,
+        "id": 6
+      }
+    ],
+    "docks": [
+      {
+        "id": 1,
+        "name": "Doca 01"
+      },
+      {
+        "id": 2,
+        "name": "Doca 02"
+      }
+    ]
+  }
+  
